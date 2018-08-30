@@ -32,7 +32,7 @@ def get():
     (options, args) = parser.parse_args()
     source = options.srcHost
     target = options.tgtHost
-    pay = options.pyl * 2000
+    pay = options.pyl
     if source == None or target == None or pay == None:
         print(parser.usage)
 	exit(0)
